@@ -20,6 +20,11 @@ I will be drawing from different resources. The folders and files in the repo wi
     - [Haskell 102](https://www.youtube.com/watch?v=Ug9yJnOYR4U)
 - Derek Banas
     - [Haskell Tutorial](https://www.youtube.com/watch?v=02_H3LjqMr8&t=597s)
+- Haskell at Work
+    - [Youtube Channel](https://www.youtube.com/channel/UCUgxpaK7ySR-z6AXA5-uDuw)
+- Tsoding
+    - [Youtube Channel](https://www.youtube.com/channel/UCEbYhDd6c6vngsF5PQpFVWg)
+    - [Haskell for JavaScript Programmers](https://youtu.be/pUN3algpvMs)
 
 ## History
 - [Simon Peyton-Jones: Escape from the ivory tower: the Haskell journey](https://www.youtube.com/watch?v=re96UgMk6GQ)
@@ -31,9 +36,16 @@ I will be drawing from different resources. The folders and files in the repo wi
 - Functional Programming
     - [GOTO 2018 • Functional Programming in 40 Minutes • Russ Olsen](https://www.youtube.com/watch?v=0if71HOyVjY)
     - [Why Isn't Functional Programming the Norm? – Richard Feldman](https://www.youtube.com/watch?v=QyJZzq0v7Z4)
-    - [Lamdba Calculus - Computerphile](https://www.youtube.com/watch?v=eis11j_iGMs)
     - [What is a Monad? - Computerphile](https://www.youtube.com/watch?v=t1e8gqXLbsU)
     - [Functional Programming and Haskell - Computerphile](https://www.youtube.com/watch?v=LnX3B9oaKzw)
     - [Programming Loops vs Recursion - Computerphile](https://www.youtube.com/watch?v=HXNhEYqFo0o)
+- Lambda Calculus
+    - [Lambda Calculus - Fundamentals of Lambda Calculus & Functional Programming in JavaScript](https://youtu.be/3VQ382QG-y4)
+    - [Lamdba Calculus - Computerphile](https://www.youtube.com/watch?v=eis11j_iGMs)
+- Functional Programming in JavaScript
+    - [Lambda Calculus - Fundamentals of Lambda Calculus & Functional Programming in JavaScript](https://youtu.be/3VQ382QG-y4)
+    - [Haskell for JavaScript Programmers](https://youtu.be/pUN3algpvMs)
+    - [Functional Programming in JavaScript - Manning Publications - Luis Atencio](https://www.manning.com/books/functional-programming-in-javascript)
+    - [An Introduction to Functional Programming in JavaScript](https://flaviocopes.com/javascript-functional-programming/)
 - Functional Programming in Excel
     - [GOTO 2016 • Pure Functional Programming in Excel • Felienne Hermans](https://www.youtube.com/watch?v=0yKf8TrLUOw)
