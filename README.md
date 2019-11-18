@@ -1,4 +1,5 @@
-# This repository is to track my progress while learning the Haskell programming language
+# Learning the Haskell programming language
+This repo is to centralize resources, projects, notes, and exercises for learning Haskell. My hope is that if I keep track of what I do while learning it, someone else might find some use in it to explore Haskell and functional programming themselves.
 
 # Installation
 Instructions for installing Haskell can be found here: [haskell.org](https://www.haskell.org/)
