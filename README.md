@@ -33,7 +33,7 @@ I will be drawing from different resources. The folders and files in the repo wi
     - [Why Isn't Functional Programming the Norm? – Richard Feldman](https://www.youtube.com/watch?v=QyJZzq0v7Z4)
     - [Lamdba Calculus - Computerphile](https://www.youtube.com/watch?v=eis11j_iGMs)
     - [What is a Monad? - Computerphile](https://www.youtube.com/watch?v=t1e8gqXLbsU)
-    - [Functional Programming and Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw)
+    - [Functional Programming and Haskell - Computerphile](https://www.youtube.com/watch?v=LnX3B9oaKzw)
     - [Programming Loops vs Recursion - Computerphile](https://www.youtube.com/watch?v=HXNhEYqFo0o)
 - Functional Programming in Excel
     - [GOTO 2016 • Pure Functional Programming in Excel • Felienne Hermans](https://www.youtube.com/watch?v=0yKf8TrLUOw)
