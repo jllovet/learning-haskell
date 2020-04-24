@@ -12,6 +12,9 @@ I will be drawing from different resources. The folders and files in the repo wi
 - Programming in Haskell Second Edition by Graham Hutton
     - [Website](http://www.cs.nott.ac.uk/~pszgmh/pih.html)
     - [Amazon](https://www.amazon.com/Programming-Haskell-Graham-Hutton/dp/1316626229)
+- Learn You a Haskell for Great Good by Miran Lipovača
+    - [Read Online](http://learnyouahaskell.com/chapters)
+    - [Amazon](https://www.amazon.com/Learn-You-Haskell-Great-Good-ebook/dp/B004VB3V0K/)
 - Haskell Fundamentals on Pluralsight
     - [Haskell Fundamentals Part 1 by Benson Joeris](https://app.pluralsight.com/library/courses/haskell-fundamentals-part1/table-of-contents)
     - [Haskell Fundamentals Part 2 by Benson Joeris](https://app.pluralsight.com/library/courses/haskell-fundamentals-part2/table-of-contents)
