@@ -193,3 +193,27 @@ everyHundred = [0,100..10000]
 -- These can be combined with functions for really powerful expressions
 
 sumOfNums = sum everyHundred
+
+{-
+******************************
+Operator Placement
+******************************
+
+We are used to seeing common operators in mathematics as infix operators,
+placed between their arguments.
+
+For instance, with the operator +
+4 + 5
+
+In Haskell, operators (which really are just functions) can be placed before
+or between their operands. However, when placing an operator between two
+arguments, it needs to have backticks.
+
+-}
+
+-- Prefix operator (normal function placement)
+modExpression = mod 5 4
+
+-- Infix operator
+modExpression1 = 5 `mod` 4
+
