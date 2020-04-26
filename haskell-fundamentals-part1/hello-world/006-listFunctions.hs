@@ -29,3 +29,15 @@ double nums =
     -- numbers = [1,2,3,4]
     -- double numbers
     -- returns: [2,4,6,8]
+
+
+
+-- Putatively verbose function to remove odd numbers from list
+removeOdd nums =
+    if null nums
+        then []
+    else
+        if (mod (head nums) 2) == 0
+            then (head nums) : removeOdd (tail nums)
+        else
+            removeOdd (tail nums)
