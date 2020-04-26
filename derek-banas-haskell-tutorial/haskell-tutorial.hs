@@ -151,3 +151,45 @@ Inside of ghci, we can run
 Which will return
 always5 :: Int
 -}
+
+
+
+{-
+******************************
+List
+******************************
+
+Use square brackets
+Can only store elements with the same data type
+For example, these are legal:
+[1,2,3,4]
+['a', 'b', 'c']
+
+While this is not legal:
+[1,2,'a','b']
+
+
+Lists can generate values in an arithmetic sequence specified in a range
+
+Ints:
+[1..100]
+
+Chars:
+['a'..'z']
+
+You can also specify the step between elements by enumerating the first
+few elements before the .. operator.
+
+To get every second element in the range 1 - 100
+[1,3..100]
+
+-}
+
+ints = [1..100]
+chars = ['a'..'z']
+everyTwo = [1,3..100]
+everyHundred = [0,100..10000]
+
+-- These can be combined with functions for really powerful expressions
+
+sumOfNums = sum everyHundred
