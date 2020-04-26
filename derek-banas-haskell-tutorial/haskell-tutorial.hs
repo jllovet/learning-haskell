@@ -217,3 +217,14 @@ modExpression = mod 5 4
 -- Infix operator
 modExpression1 = 5 `mod` 4
 
+
+-- Negative numbers need to be wrapped in parentheses when following an operator
+
+-- This will throw an error
+-- negativeNumAfter = 5 + -4
+
+-- Valid
+negativeNumAfter = 5 + (-4)
+
+-- But if they are not following an operator, then they do not need parentheses
+negativeNumFirst = -3 + 2
