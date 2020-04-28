@@ -122,5 +122,19 @@ folder' = foldl (-) 1 [1..10]
 -- returns: -54
 
 -- But foldr, which iterates over elements in reverse:
-folder' = foldr (-) 1 [1..10]
+folder'' = foldr (-) 1 [1..10]
 -- returns -4
+
+
+-- More on list comprehension
+pow3List = [3^n | n <- [1..10]]
+
+-- equivalent to the following in python:
+-- pow3List = [3**num for num in range(1,11)]
+
+-- Multiple lists can be fed into the list comprehension in Haskell
+
+-- Creates a two-dimensional list
+multTable = [[x * y
+            | y <- [1..10]]
+            | x <- [1..10]]
