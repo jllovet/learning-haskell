@@ -114,3 +114,13 @@ sumZippedList' = zipWith (+) [1,2,3,4,5] [3,4,4,2]
 listBiggerThan5 = filter (>5) morePrimes
 
 evensUpTo20 = takeWhile (<=20) [2,4..] -- using an infinite list!
+
+-- Folding over a list
+folder = foldl (*) 1 [1..10] -- returns 10 factorial!!
+
+folder' = foldl (-) 1 [1..10]
+-- returns: -54
+
+-- But foldr, which iterates over elements in reverse:
+folder' = foldr (-) 1 [1..10]
+-- returns -4
