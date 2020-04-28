@@ -32,3 +32,28 @@ negativeNumAfter = 5 + (-4)
 
 -- But if they are not following an operator, then they do not need parentheses
 negativeNumFirst = -3 + 2
+
+{-
+Getting type information using :t
+
+Not only can :t be used to get the type of a variable;
+it can also be used to get the type signature of a function.
+
+For instance:
+
+:t sqrt
+
+returns:
+sqrt :: Floating a => a -> a
+
+-}
+
+num9 = 9 :: Int
+sqrtOf9 = sqrt (fromIntegral num9) -- This uses a built-in type-casting function
+-- the round function converts in the other direction, from floats to ints
+
+
+
+
+
+
