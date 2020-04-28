@@ -109,3 +109,8 @@ sumZippedList' = zipWith (+) [1,2,3,4,5] [3,4,4,2]
 -- will only return a list with the elements it was able to zip
 -- sumZippedList'
 -- [4,6,7,6]
+
+-- Approaches to filtering
+listBiggerThan5 = filter (>5) morePrimes
+
+evensUpTo20 = takeWhile (<=20) [2,4..] -- using an infinite list!
