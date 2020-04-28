@@ -101,3 +101,11 @@ specials = [x | x <- [1..500], mod x 2 == 0, mod x 3 == 0, mod x 7 == 0]
 -- specials'
 
 sortedList = sort [6846,9,1,3,7,35,4,687,351,687,351,684]
+
+-- Zipping lists
+
+sumZippedList = zipWith (+) [1,2,3,4,5] [3,4,4,2,1]
+sumZippedList' = zipWith (+) [1,2,3,4,5] [3,4,4,2]
+-- will only return a list with the elements it was able to zip
+-- sumZippedList'
+-- [4,6,7,6]
