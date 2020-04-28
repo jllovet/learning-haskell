@@ -51,9 +51,3 @@ sqrt :: Floating a => a -> a
 num9 = 9 :: Int
 sqrtOf9 = sqrt (fromIntegral num9) -- This uses a built-in type-casting function
 -- the round function converts in the other direction, from floats to ints
-
-
-
-
-
-
