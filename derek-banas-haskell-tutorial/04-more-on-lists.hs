@@ -60,3 +60,13 @@ greeks = putStrLn ['α'..'ω']
 -- αβγδεζηθικλμνξοπρςστυφχψω
 
 -- see https://stackoverflow.com/questions/14039726/how-to-make-haskell-or-ghci-able-to-show-chinese-characters-and-run-chinese-char
+
+
+many2s = take 10 (repeat 2)
+
+-- similarly
+
+many3s = replicate 10 3
+
+cycleList = take 10 (cycle [1..4])
+
