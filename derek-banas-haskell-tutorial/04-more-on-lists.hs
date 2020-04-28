@@ -1,3 +1,5 @@
+import Data.List
+import System.IO
 {-
 Lists
 
@@ -85,3 +87,17 @@ doubleElementsFiltered y threshold = [x * 4 | x <- y, x * 4 <= threshold]
 -- After list comprehension, add a boolean test for inclusion
 
 testList = doubleElementsFiltered [1..100] 200
+
+-- Checking divisibility
+
+specials = [x | x <- [1..500], mod x 2 == 0, mod x 3 == 0, mod x 7 == 0]
+
+
+-- Doesn't work. Look into how to generate multiple filters from a function
+
+-- modChecks x divisors = [mod x divisor == 0 | divisor <- divisors]
+-- nums = [2,3,7]
+-- specials' = [x | x <- [1..500], modChecks x nums]
+-- specials'
+
+sortedList = sort [6846,9,1,3,7,35,4,687,351,687,351,684]
