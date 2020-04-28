@@ -70,3 +70,18 @@ many3s = replicate 10 3
 
 cycleList = take 10 (cycle [1..4])
 
+
+-- List comprehensions
+
+someList = [1..10]
+doubleAllElements y = [x * 2 | x <- y]
+sumDoubleElements y = sum (doubleAllElements y)
+anotherSum = sumDoubleElements someList
+
+-- Filtering list comprehensions
+
+doubleElementsFiltered y threshold = [x * 4 | x <- y, x * 4 <= threshold]
+
+-- After list comprehension, add a boolean test for inclusion
+
+testList = doubleElementsFiltered [1..100] 200
