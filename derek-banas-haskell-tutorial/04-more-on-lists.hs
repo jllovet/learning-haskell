@@ -52,3 +52,11 @@ minPrime = min morePrimes2
 mySum = sum [1,2,3,4,5] -- 15
 
 myProduct = product [1,2,3,4,5] -- 120
+
+-- Other uses cases for generated lists
+greeksConverted = ['α'..'ω']
+-- "\945\946\947\948\949\950\951\952\953\954\955\956\957\958\959\960\961\962\963\964\965\966\967\968\969"
+greeks = putStrLn ['α'..'ω']
+-- αβγδεζηθικλμνξοπρςστυφχψω
+
+-- see https://stackoverflow.com/questions/14039726/how-to-make-haskell-or-ghci-able-to-show-chinese-characters-and-run-chinese-char
