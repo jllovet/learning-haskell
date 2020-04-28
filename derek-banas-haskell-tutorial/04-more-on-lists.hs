@@ -138,3 +138,8 @@ pow3List = [3^n | n <- [1..10]]
 multTable = [[x * y
             | y <- [1..10]]
             | x <- [1..10]]
+
+-- Some list comprehension functions
+remove element list = filter (\e -> e /= element) list -- uses a lambda expression - i.e. an anonymous function
+
+delete deleted xs = [ x | x <- xs, x /= deleted ]
