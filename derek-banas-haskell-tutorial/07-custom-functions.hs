@@ -52,3 +52,10 @@ sumMe x y = x + y
 sumMe_f_f = sumMe 1.45 2.23 -- 3.6799999999999997
 sumMe_i_f = sumMe 1 2.23 -- 3.23
 sumMe_i_i = sumMe 1 3 -- 4
+
+
+addTuples :: (Int, Int) -> (Int, Int) -> (Int, Int)
+-- Add tuples elementwise, returning a tuple
+addTuples (x1, y1) (x2, y2) = (x1 + x2, y1 + y2)
+
+addTuplesTest = addTuples (1,2) (3,4)
