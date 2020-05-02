@@ -32,3 +32,11 @@ funcName param1 param2 = param1 `operation` param2
 
 -- A little less general still:
 addMe x y = x + y
+
+
+{-
+As with other built-in functions, we can run :t to get the type of addMe
+Doing so will return out declaration from above.
+:t addMe
+addMe :: Int -> Int -> Int
+-}
