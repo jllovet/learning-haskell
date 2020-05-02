@@ -20,4 +20,15 @@ That second function returns an Int as an output after processing them.
 This is like lambda calculus function signatures, except that here we 
 are dealing with just the type signatures, instead of the actual
 implementation. The implementation will come next.
+
+All implementations will follow this format:
+
+<functionName> [<parameters>] = <expression>
+
+Made a little less general:
+funcName param1 param2 = param1 `operation` param2
+
 -}
+
+-- A little less general still:
+addMe x y = x + y
