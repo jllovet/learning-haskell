@@ -59,3 +59,15 @@ addTuples :: (Int, Int) -> (Int, Int) -> (Int, Int)
 addTuples (x1, y1) (x2, y2) = (x1 + x2, y1 + y2)
 
 addTuplesTest = addTuples (1,2) (3,4)
+
+
+-- Example using different types and illustrating switch
+whatAge :: Int -> String
+-- Note how defining cases works differently here than in other languages
+
+whatAge 16 = "You can drive! Don't wreck it."
+whatAge 18 = "You can vote! Get out there and do it."
+whatAge 21 = "You're an adult! Have a beer."
+
+-- Specify default case
+whatAge _ = "Nothing important going on."
