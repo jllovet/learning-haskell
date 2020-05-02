@@ -40,3 +40,15 @@ Doing so will return out declaration from above.
 :t addMe
 addMe :: Int -> Int -> Int
 -}
+
+{-
+Functions can also be defined without explicit type signatures.
+Haskell will determine the types of the arguments at runtime.
+This allows us to write a similar funcion that works with Ints and Floatings
+-}
+
+sumMe x y = x + y
+
+sumMe_f_f = sumMe 1.45 2.23 -- 3.6799999999999997
+sumMe_i_f = sumMe 1 2.23 -- 3.23
+sumMe_i_i = sumMe 1 3 -- 4
