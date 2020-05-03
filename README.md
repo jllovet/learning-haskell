@@ -1,5 +1,5 @@
 # Learning Haskell
-This repo is to centralize resources, projects, notes, and exercises for learning Haskell. My hope is that if I keep track of what I do while learning it, someone else might find some use in it to explore Haskell and functional programming themselves.
+This repo is to organize resources, projects, notes, and exercises for learning Haskell, functional programming, and the lambda calculus, both for myself as I learn them, and for others who want to learn them as well.
 
 # Installation
 Instructions for installing Haskell can be found here: [haskell.org](https://www.haskell.org/)
