@@ -5,7 +5,16 @@ This repo is to organize resources, projects, notes, and exercises for learning 
 Instructions for installing Haskell can be found here: [haskell.org](https://www.haskell.org/)
 
 # Quick Start
-After you have finished the installation, here are some ways to get your feet wet right away. (Examples adapted from [haskell.org](https://www.haskell.org/))
+After you have finished the installation, open the Haskell interpreter ghci in a shell like so:
+
+```SHELL
+gchi
+```
+
+This will place you inside of a Haskell REPL. 
+
+Here are things to run to get your feet wet right away. (Examples adapted from [haskell.org](https://www.haskell.org/))
+
 
 ```HASKELL
 23 * 36
