@@ -1,10 +1,10 @@
 # Learning Haskell
 This repo is to organize resources, projects, notes, and exercises for learning Haskell, functional programming, and the lambda calculus.
 
-# Installation
+## Installation
 Instructions for installing Haskell can be found here: [haskell.org](https://www.haskell.org/)
 
-# Quick Start
+## Quick Start
 After you have finished the installation, open the Haskell interpreter ghci in a shell like so:
 
 ```SHELL
@@ -47,5 +47,5 @@ take 10 primes
 ```
 As noted on the original example at [haskell.org](https://www.haskell.org/), this is not to be taken as a serious prime number generator, but rather as an illustration of some of Haskell's features.
 
-# Resources
+## Resources
 Books, videos, blog posts, and other materials useful for learning Haskell and related topics will be added in [learning-haskell/resources/](https://github.com/Jonathan-Llovet/learning-haskell/tree/master/resources).
