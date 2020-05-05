@@ -1,4 +1,6 @@
-# Resources for learning Haskell
+# Resources
+
+## Learning Haskell
 - Programming in Haskell Second Edition by Graham Hutton
     - [Website](http://www.cs.nott.ac.uk/~pszgmh/pih.html)
     - [Amazon](https://www.amazon.com/Programming-Haskell-Graham-Hutton/dp/1316626229)
@@ -19,10 +21,10 @@
     - [Youtube Channel](https://www.youtube.com/channel/UCEbYhDd6c6vngsF5PQpFVWg)
     - [Haskell for JavaScript Programmers](https://youtu.be/pUN3algpvMs)
 
-# History
+## History
 - [Simon Peyton-Jones: Escape from the ivory tower: the Haskell journey](https://www.youtube.com/watch?v=re96UgMk6GQ)
 
-# Interesting talks and discussions about programming paradigms and particularly functional programming
+## Talks about programming paradigms and functional programming
 
 - Programming Paradigms
     - [Programming Paradigms - Computerphile](https://www.youtube.com/watch?v=sqV3pL5x8PI)
