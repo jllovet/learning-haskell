@@ -13,3 +13,5 @@ factorial n = n * factorial (n-1)
 isOdd n
     | n `mod` 2 == 0 = False
     | otherwise = True
+
+isEven n = not (isOdd n)
