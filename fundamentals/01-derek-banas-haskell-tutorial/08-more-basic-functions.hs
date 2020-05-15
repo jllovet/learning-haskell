@@ -29,4 +29,14 @@ letterGrade numberGrade
 
 -- Create a list that contains tuples with each letter and number grade
 -- at four point intervals up to 100
-zip ([1,4..100]) (map letterGrade [1,4..100])
+-- zip ([1,4..100]) (map letterGrade [1,4..100])
+
+-- Remove repetitions of calculations by defining calculations in where clause
+
+batAvgRating :: Double -> Double -> String
+batAvgRating hits atBats
+    | avg <= 0.200 = "No bueno."
+    | avg <= 0.250 = "Decent, about average."
+    | avg <= 0.280 = "Wow. Pretty good."
+    | otherwise = "Amazing."
+    where avg = hits / atBats
