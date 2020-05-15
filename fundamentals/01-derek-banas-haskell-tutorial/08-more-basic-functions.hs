@@ -15,3 +15,18 @@ isOdd n
     | otherwise = True
 
 isEven n = not (isOdd n)
+
+-- Gaurd pattern is analogous to a switch statement in other languages
+
+letterGrade :: Int -> String
+
+letterGrade numberGrade
+    | numberGrade >= 95 = "A"
+    | numberGrade >= 90 = "B"
+    | numberGrade >= 80 = "C"
+    | numberGrade >= 70 = "D"
+    | otherwise = "F"
+
+-- Create a list that contains tuples with each letter and number grade
+-- at four point intervals up to 100
+zip ([1,4..100]) (map letterGrade [1,4..100])
