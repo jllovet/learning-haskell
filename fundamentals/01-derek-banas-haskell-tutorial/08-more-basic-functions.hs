@@ -40,3 +40,10 @@ batAvgRating hits atBats
     | avg <= 0.280 = "Wow. Pretty good."
     | otherwise = "Amazing."
     where avg = hits / atBats
+
+getListItems :: [Int] -> String
+
+getListItems [] = "Your list is empty."
+getListItems (x:[]) = "Your list starts with " ++ show x
+getListItems (x:y:[]) = "Your list contains " ++ show x ++ " and " ++ show y
+getListItems (x:xs) = "Your starts with " ++ show x ++ " and then " ++ show xs
