@@ -47,3 +47,7 @@ getListItems [] = "Your list is empty."
 getListItems (x:[]) = "Your list starts with " ++ show x
 getListItems (x:y:[]) = "Your list contains " ++ show x ++ " and " ++ show y
 getListItems (x:xs) = "Your starts with " ++ show x ++ " and then " ++ show xs
+
+-- 'As' pattern TODO: Research other applications
+getFirstLetter [] = "Empty String"
+getFirstLetter all@(x:xs) = "The first letter in " ++ all ++ " is " ++ [x]
