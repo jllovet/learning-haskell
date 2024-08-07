@@ -47,5 +47,13 @@ take 10 primes
 ```
 As noted on the original example at [haskell.org](https://www.haskell.org/), this is not to be taken as a serious prime number generator, but rather as an illustration of some of Haskell's features.
 
+## GHCUP
+
+If you use [ghcup](https://www.haskell.org/ghcup/install/) to manage your Haskell installation, you can get a summary of the installations on your machine in the terminal:
+
+```shell
+ghcup tui
+```
+
 ## Resources
 Books, videos, blog posts, and other materials useful for learning Haskell and related topics will be added in [learning-haskell/resources/](https://github.com/jllovet/learning-haskell/tree/master/resources).
