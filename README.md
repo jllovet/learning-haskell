@@ -2,7 +2,7 @@
 This repo is to organize resources, projects, notes, and exercises for learning Haskell, functional programming, and the lambda calculus.
 
 ## Installation
-Instructions for installing Haskell can be found here: [haskell.org](https://www.haskell.org/)
+Instructions for installing Haskell can be found here: [haskell.org](https://www.haskell.org/). Additionally, you can find a video with installation instructions [here](https://www.youtube.com/watch?v=hSN5mxITv0A&list=PLNEK_Ejlx3x1D9Vq5kqeC3ZDEP7in4dqb&index=13).
 
 ## Quick Start
 After you have finished the installation, open the Haskell interpreter ghci in a shell like so:
@@ -54,6 +54,9 @@ If you use [ghcup](https://www.haskell.org/ghcup/install/) to manage your Haskel
 ```shell
 ghcup tui
 ```
+
+### Deinstallation
+If you want to remove Haskell from your system, you can use `ghcup nuke`.
 
 ## Resources
 Books, videos, blog posts, and other materials useful for learning Haskell and related topics will be added in [learning-haskell/resources/](https://github.com/jllovet/learning-haskell/tree/master/resources).
