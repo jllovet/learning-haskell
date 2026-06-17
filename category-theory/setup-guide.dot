@@ -1,0 +1,46 @@
+digraph haskell_setup {
+  rankdir=TB;
+  ratio=auto;
+  ranksep=1.5;
+  labelloc="t";
+  label="Haskell toolchain: who installs what, who uses what";
+  fontname="Helvetica"; fontsize=14;
+  node [fontname="Helvetica", fontsize=11, shape=box, style="rounded,filled", color="#444444"];
+  edge [fontname="Helvetica", fontsize=9, color="#666666"];
+
+  // Manager (top)
+  ghcup [label="GHCup\ntoolchain manager", fillcolor="#FDE2B3"];
+
+  // Installed tools (engine row)
+  ghc   [label="GHC 9.4.8\ncompiler + ghci + GHC API", fillcolor="#C9E6CB"];
+  cabal [label="Cabal 3.16\nbuild tool + dependencies", fillcolor="#C9E6CB"];
+  hls   [label="HLS 9.4.8~2.14\nlanguage server", fillcolor="#C9E6CB"];
+  ghcid [label="ghcid\nsub-second reload loop", fillcolor="#C9E6CB"];
+  stack [label="Stack\n(installed, unused)", fillcolor="#E8E8E8", style="rounded,filled,dashed"];
+
+  // Project + editor (consumers)
+  proj  [label="your cabal project\n.cabal = library / exe / tests", shape=folder, fillcolor="#CFE3F7"];
+  code  [label="VS Code\n+ Haskell extension (LSP client)", fillcolor="#CFE3F7"];
+
+  // GHCup installs / manages
+  ghcup -> ghc   [label="installs"];
+  ghcup -> cabal [label="installs"];
+  ghcup -> hls   [label="installs"];
+  ghcup -> stack [label="installs", style=dashed];
+  cabal -> ghcid [label="cabal install", style=dotted];
+
+  // Everyone shares the GHC engine
+  cabal -> ghc  [label="compiles with", color="#2E7D32", fontcolor="#2E7D32"];
+  hls   -> ghc  [label="GHC API",       color="#2E7D32", fontcolor="#2E7D32"];
+  ghcid -> ghc  [label="ghci",          color="#2E7D32", fontcolor="#2E7D32"];
+
+  // Everyone reads the same project
+  cabal -> proj [label="builds",   style=bold];
+  hls   -> proj [label="analyzes", style=bold];
+  ghcid -> proj [label="watches",  style=bold];
+
+  // Editor <-> HLS over LSP
+  code  -> hls  [label="LSP", dir=both, color="#1565C0", fontcolor="#1565C0"];
+
+  // { rank=same; ghc; cabal; hls; ghcid; stack; }
+}
