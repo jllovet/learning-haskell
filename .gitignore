@@ -1,3 +1,42 @@
 **private**
 *.png
 *.svg
+
+# ── Haskell / GHC build artifacts ──────────────────────────────
+# Cabal Nix-style local builds (the main one)
+dist-newstyle/
+dist/
+dist-*/
+cabal-dev/
+
+# Per-project cabal config overrides (keep the shared cabal.project)
+cabal.project.local
+cabal.project.local~
+.ghc.environment.*
+
+# Stack
+.stack-work/
+stack.yaml.lock
+
+# Compiler intermediate output
+*.o
+*.hi
+*.hie
+*.dyn_o
+*.dyn_hi
+*.p_o
+*.chi
+*.chs.h
+
+# Profiling / heap / event logs
+*.prof
+*.aux
+*.hp
+*.eventlog
+.hpc/
+
+# Sandboxes (legacy) and misc
+.cabal-sandbox/
+cabal.sandbox.config
+.hsenv/
+.HTF/
